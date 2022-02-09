@@ -1,0 +1,138 @@
+.app{
+  background: url("../img/background_blur.jpg") center;
+  background-size: cover;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+}
+
+.welcomeNavbar {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 78px;
+  color: white;
+  background: rgba(0,0,0, 0.3);
+}
+
+.loginRegister {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-around;
+  min-width: 15%;
+  &-option {
+    list-style: none;
+  }
+  &-button {
+    display: flex;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    &:hover{
+      color: rgba(255,255,255, 0.8);
+    }
+  }
+}
+.pageName {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 1.5rem;
+
+  &-h4{
+    margin: 0;
+    color: white;
+  }
+}
+
+.welcomeSection{
+  text-align: center;
+  color: white;
+  margin-top: 50vh;
+  transform: translateY(-50%);
+  width: 100%;
+  font-size: 3.75rem;
+   .highlight{
+     padding-top: 10px;
+     padding-bottom: 10px;
+     font-weight: bold;
+     font-size: 4rem;
+   }
+}
+.group{
+  width: 100%;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.auth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &-window {
+    text-transform:uppercase;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+    padding: 30px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-input{
+    width:100%;
+    color:#fff;
+    border:none;
+    padding:15px 20px;
+    border-radius:25px;
+    background:rgba(255,255,255,.1);
+  }
+  &-label{
+    color:#aaa;
+    font-size:0.75rem;
+    width: 100%;
+    padding-left: 6px;
+  }
+  &-button{
+    margin-top: 10px;
+    border:none;
+    padding:15px 20px;
+    border-radius:25px;
+    background:#161F26;
+    width: 100%;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  &-divider{
+    width: 100%;
+    margin-top: 20px;
+    border-top: 1px solid #575757;
+  }
+
+  &-error{
+    font-size: 0.75rem;
+    color: #e53e3e;
+    padding-top: 16px;
+  }
+}
+
+.error{
+  font-size: 0.75rem;
+  color: #e53e3e;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+

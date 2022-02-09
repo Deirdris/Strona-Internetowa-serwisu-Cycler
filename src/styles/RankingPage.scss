@@ -1,0 +1,43 @@
+
+  .startingSection {
+    
+    .carousel{
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td, th {
+        border: 0px solid rgb(41, 40, 40);
+        text-align: center;
+        padding: 20px;
+        
+        
+        img{
+          border-radius: 50%;
+          width: 30px;
+          height:30px;
+          text-align: center;
+        }
+      }
+      tr:nth-child(even) {
+        background-color: #353f47;
+      }
+    }
+    .carousel1{
+      .slick-next{
+        right:2px;
+        z-index: 1;
+      }
+      .slick-prev{
+        left: 2px;
+        z-index: 1;
+      }
+      .slick-prev, .slick-next{
+        width: 40px;
+        height: 40px;
+        top:10%;
+      }
+    }
+  }
