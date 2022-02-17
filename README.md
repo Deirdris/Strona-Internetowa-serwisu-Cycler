@@ -2,7 +2,7 @@
 
 Strona została napisana jako część pracy inżynierskiej. Ja byłem odpowiedzialny za większość systemu, nie licząc rankingów i przykładowych tras.
 
-Strona jest częścią systemu w którego skład wchodzi jeszcze aplikacja mobilna. To na niej możemy wykonywać treningi.
+Strona jest częścią systemu, w którego skład wchodzi jeszcze aplikacja mobilna korzystająca z tej samej bazy danych. To na niej możemy wykonywać treningi.
 
 Wykorzystane technologie: React, SCSS, Redux, MUI i Firebase
 
